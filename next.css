@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: tomato;
+}
+
+.image img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+ 
+
+@media  screen and (max-width: 600px) {
+    .flex1{
+        padding-top: 10px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .flex123{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    .flex12{
+        text-align: center;
+        color: white;
+        background-color: black;
+        width: 80%;
+        height: 20%;
+        padding: 5px;
+        border-radius: 2em;
+    
+    }
+    .flex12:hover{
+        color:black;
+        background-color: white;
+    
+    }
+
+}

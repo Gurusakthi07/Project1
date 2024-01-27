@@ -1,0 +1,12 @@
+*{
+    background-color: tomato;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+div{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
