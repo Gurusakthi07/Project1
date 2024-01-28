@@ -1,0 +1,31 @@
+body{
+    background-color: tomato;
+    
+}
+@media  screen and (max-width: 600px){
+div{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    margin-left: 4em;
+    margin-bottom: -250px;
+}
+}
+@media  screen and (max-width: 325px){
+div{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    margin-left: 1em;
+    margin-bottom: -250px;
+}
+}
+@media  screen and (max-width: 375px){
+div{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    margin-left: 3em;
+    margin-bottom: -250px;
+}
+}
