@@ -7,6 +7,8 @@ body{
 .image img{
     border: 2px solid black;
     border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
  
 
@@ -17,7 +19,13 @@ body{
         border-radius: 50px;
         background-color: white;
         padding: 10px;
-        margin: 10px;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        align-items: center;
+
+
+        
     }
     
     .flex123{
@@ -39,6 +47,53 @@ body{
         color:black;
         background-color: white;
     
+    }
+    .image img{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
+
+@media  screen and (max-width: 325px) {
+    .flex1{
+        padding-top: 10px;
+        border: 1px solid black;
+        border-radius: 50px;
+        background-color: white;
+        padding: 10px;
+        margin-left: 4em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        align-items: center;
+
+
+        
+    }
+    
+    .flex123{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    .flex12{
+        text-align: center;
+        color: white;
+        background-color: black;
+        width: 80%;
+        height: 20%;
+        padding: 5px;
+        border-radius: 2em;
+    
+    }
+    .flex12:hover{
+        color:black;
+        background-color: white;
+    
+    }
+    .image img{
+        flex-wrap: wrap;
+        margin-right: 50px;
     }
 
 }
