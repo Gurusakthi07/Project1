@@ -3,7 +3,7 @@ body{
     
 }
 @media  screen and (max-width: 600px){
-div{
+.order{
     height: 100vh;
     display: grid;
     align-items: center;
@@ -12,20 +12,35 @@ div{
 }
 }
 @media  screen and (max-width: 325px){
-div{
+.order{
     height: 100vh;
     display: grid;
     align-items: center;
     margin-left: 1em;
-    margin-bottom: -250px;
+  
 }
 }
 @media  screen and (max-width: 375px){
-div{
-    height: 100vh;
+.order{
+
     display: grid;
     align-items: center;
     margin-left: 3em;
-    margin-bottom: -250px;
 }
+}
+.cards1{
+    margin-top: 10px;
+    display: flex !important;
+    justify-content: center;
+}
+.cards1 a{
+    display: flex;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20%;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 4px;
+
 }
